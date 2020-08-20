@@ -18,6 +18,14 @@
   margin-top: 18px;
 }
 
+.badge--sm {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
