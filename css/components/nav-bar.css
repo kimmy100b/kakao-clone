@@ -34,6 +34,7 @@
   left: 15px;
   bottom: 15px;
   animation: notificationAnimation 2s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
 @keyframes appearBtnAnimation {
