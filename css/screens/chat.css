@@ -119,6 +119,7 @@
 .reply .reply__column:first-child {
   width: 10%;
 }
+
 .reply .reply__column:last-child {
   width: 90%;
   position: relative;
@@ -159,7 +160,21 @@
 .reply__column button i {
   opacity: 1;
 }
+
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
+}
+
+.message__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.message__content span {
+  margin-bottom: 5px;
+}
+
+.message__content span:last-child {
+  margin-bottom: 0px;
 }
