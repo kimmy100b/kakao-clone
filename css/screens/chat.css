@@ -103,9 +103,9 @@
   flex-direction: row-reverse;
 }
 
-.message-row__content .message__content {
+/* .message-row__content .message__content {
   margin-bottom: 18px;
-}
+} */
 
 .message__notread {
   opacity: 0.8;
@@ -187,6 +187,11 @@
 
 .message__content span {
   margin-bottom: 5px;
+  width: fit-content;
+}
+
+.message-row--own .message__content {
+  align-items: flex-end;
 }
 
 .message__content span:last-child {
