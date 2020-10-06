@@ -25,7 +25,7 @@
     transform: translateY(-5px) rotateY(360deg);
   }
   100% {
-    trnasform: none;
+    transform: none;
   }
 }
 
